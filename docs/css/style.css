@@ -21,7 +21,7 @@ img {
   
 }
 header {
-    background-color:#AFD9E9  ;
+    background-color:#A64A2C  ;
 }
 .header {
     display: flex;
@@ -38,7 +38,7 @@ nav > ul {
 }
 
 body {
-    background-color: #DAEEF6 
+    background-color: #f5d5c1   ;
 }
 
 .hero {
@@ -55,7 +55,7 @@ main {
     padding-top: 1rem;
     padding: 2%;
    
-    background-color:#AFD9E9 ;
+    background-color:#E57124 ;
     
 
 
@@ -78,7 +78,7 @@ footer {
 
 :root {
     --color-light: #f0f0f0;
-    --color-dark: #71C3E2   ;
+    --color-dark: #F4721C  ;
     --color-primary: #ec325a;
     --color-secondary:#4a0080;
 }
