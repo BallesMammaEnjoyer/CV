@@ -11,7 +11,7 @@ Dokumentera hur du testat din webbplats. Anteckna eventuella resultat, ändringa
 * [x] Sidans struktur är korrekt, indrag och formattering.
 * [x] Sidan använder semantiska strukturelement.
 * [x] Sidans innehåll är korrekt, stäm av med Figma.
-* [ ] Sidan följer alla relevanta lagar och regler för publicering på webben.
+* [x] Sidan följer alla relevanta lagar och regler för publicering på webben.
 * [ ] Testa att öppna sidan på en mobiltelefon.
 * [ ] Testa att öppna sidan på en dator.
 * [ ] Kör WAVE, inga fel, arbeta med varningar.

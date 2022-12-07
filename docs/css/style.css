@@ -16,6 +16,7 @@ html, body {
 
 img {
     max-width: 100%;
+    min-width: 3rem;
     height: auto;
     padding: 5%;
   
