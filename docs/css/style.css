@@ -1,4 +1,5 @@
-html, body {
+html,
+body {
     padding: 0;
     margin: 0;
 
@@ -9,7 +10,19 @@ html, body {
     margin-inline: auto;
     font-family: 'Sono', sans-serif;
     color: white;
-    
+
+}
+
+canvas {
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: 1;
+}
+
+i{
+    z-index: 2;
+    position: relative;
 }
 
 
@@ -19,19 +32,22 @@ img {
     min-width: 3rem;
     height: auto;
     padding: 5%;
-  
+
 }
+
 header {
-    background-color:#A64A2C  ;
+    background-color: #A64A2C;
+    z-index: 2;
+    position: relative;
 }
+
 .header {
     display: flex;
     justify-content: space-between;
     align-items: center;
-    
 }
 
-nav > ul {
+nav>ul {
     list-style: none;
     display: flex;
     gap: 1rem;
@@ -39,7 +55,7 @@ nav > ul {
 }
 
 body {
-    background-color: #f5d5c1   ;
+    background-color: #f5d5c1;
 }
 
 .hero {
@@ -47,30 +63,28 @@ body {
     grid-template-areas: "stack";
 }
 
-.hero > * {
+.hero>* {
     grid-area: stack;
 }
 
 main {
-  
+
     padding-top: 1rem;
     padding: 2%;
-   
-    background-color:#E57124 ;
-    
-
-
+    background-color: #E57124;
 }
 
-.hero > h1 {
+.hero>h1 {
     place-self: center;
     font-size: 4rem;
     color: rgb(135, 201, 216);
     outline: auto;
     outline-style: groove;
     outline-color: rgb(17, 49, 49);
-    outline-width: 0.1ch;    
+    outline-width: 0.1ch;
 }
+
+
 
 footer {
     padding-top: 3rem;
@@ -79,10 +93,11 @@ footer {
 
 :root {
     --color-light: #f0f0f0;
-    --color-dark: #F4721C  ;
+    --color-dark: #F4721C;
     --color-primary: #ec325a;
-    --color-secondary:#4a0080;
+    --color-secondary: #4a0080;
 }
+
 .btn {
     text-align: center;
     text-decoration: none;
@@ -93,9 +108,11 @@ footer {
     border: 1px solid transparent;
     transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
 }
+
 .btn:hover {
     background-color: var(--color-primary);
 }
+
 .btn-rounded {
     border-radius: 5%;
 }
